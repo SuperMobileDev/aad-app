@@ -1,0 +1,25 @@
+<ion-view align-title="center" view-title="PLAN YOUR VISIT">
+    <ion-content class="content-sub-header-plan-visit" delegate-handle="plan-visit-content">
+
+        <div class="row calendar-row-wrap">
+        	<div class="col col-20 calendar-time-column">
+        		<ion-list class="calendar-time-list">
+        			<ion-item ng-repeat="time in timeArray">
+        		        <p>{{time}}</p>
+        		    </ion-item>
+        		</ion-list>
+        	</div>
+        	<div class="col col-80 calendar-time-column-space">
+        		<ion-list class="calendar-time-list">
+                    <ion-item href="#" class="calendar-time-column-item">
+                        <p></p>
+                    </ion-item>
+        			<ion-item ng-repeat="time in timeArray" class="event-item">
+                        <div id="{{time}}:00" class="calendar-time-column-item" ng-click="viewEvent(time)"></div>
+        		    </ion-item>
+        		</ion-list>
+        	</div>
+        </div>
+        <div class="bottom-spacer-plan"></div>
+    </ion-content>  
+</ion-view>

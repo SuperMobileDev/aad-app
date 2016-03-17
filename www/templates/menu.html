@@ -1,0 +1,157 @@
+<ion-side-menus enable-menu-with-back-views="true" delegate-handle="main-menu">
+  <ion-side-menu-content>
+    <ion-nav-bar class="nav-bar" align-title="center">
+      <!-- <ion-nav-back-button>
+      </ion-nav-back-button> -->
+
+      <ion-nav-buttons side="left">
+        <button class="button button-left button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+
+      <ion-nav-buttons side="right">
+        <div class="button button-right button-icon button-clear home-logo" data-tap-disabled="true" ng-if="$root.home">
+          <img src="img/logo.svg" class="nav-logo"></div>
+        </div>
+        <a href="#/app/home" class="button button-right button-icon button-clear ion-android-home center-justify-content" >
+          <!-- <img src="img/logo.svg" class="nav-logo"></div> -->
+        </a>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <!-- Genaral sub header -->
+    <ion-header-bar class="bar-subheader" ng-show="$root.showSubHeader">
+      <div class="sub-header-btn-left">
+        <a type="button" ng-click="$ionicGoBack()" class="color-white center-content">
+          <icon class="icon ion-chevron-left"></icon>
+        </a> 
+      </div>
+      <!-- <button class="button bg-dark-blue color-white ion-chevron-left back-btn" ng-click="$ionicGoBack()"></button> -->
+      <div class="subheader-title-normal">
+        <h2 ng-hide="$root.hideSubTitle">
+          {{$root.subheading}}
+        </h2>
+      </div>
+      <div class="sub-header-btn-right center-justify-content">
+        <a href="#/app/at-event-custom" class="round-btn-link center-justify-content" ng-show="$root.showSubHeaderPlan">
+          <div class="round-button-circle">
+            <div class="round-button center-justify-content" >
+              <i class="ion-android-add"></i>
+            </div>
+          </div>
+        </a>
+        <!-- show search button -->
+        <div ng-show="$root.showSubHeaderSearch">
+          <a class="search-button" type="button" ng-click="$root.showSearchBar()" class="color-white center-content">
+            <icon class="icon ion-android-search"></icon>
+          </a>
+        </div>
+      </div>
+
+      <!-- Plan visit sub header -->
+      <ion-tabs class="calendar-subheader-tabs" delegate-handle="date-tabs" ng-show="$root.showSubHeaderPlan">
+        <ion-tab title="Wed 14" ng-click="$root.dateTabSelectIndex(0, 14)">
+        </ion-tab>
+        <ion-tab title="Thu 15" ng-click="$root.dateTabSelectIndex(1, 15)">
+        </ion-tab>
+        <ion-tab title="Fri 16" ng-click="$root.dateTabSelectIndex(2, 16)">
+        </ion-tab>
+        <ion-tab title="Sat 17" ng-click="$root.dateTabSelectIndex(3, 17)">
+        </ion-tab>
+        <ion-tab title="Sun 18" ng-click="$root.dateTabSelectIndex(4, 18)">
+        </ion-tab>
+      </ion-tabs>
+
+      <!-- exhibitor sub header -->
+      <ion-tabs class="exhibitor-tabs tabs-icon-top" delegate-handle="exhibitor-tabs" ng-show="$root.showSubHeaderExhibitor">
+        <ion-tab title="Add To Calendar" icon-on="ion-android-calendar" icon-off="ion-android-calendar" ng-click="$root.exhibitorCalendar()">
+        </ion-tab>
+        <ion-tab title="Rate Exhibition" icon-on="ion-android-star" icon-off="ion-android-star" ng-click="$root.exhibitorRate()">
+        </ion-tab>
+        <ion-tab title="Exhibition Location" icon-on="ion-android-pin" icon-off="ion-android-pin" ng-click="$root.exhibitorLocation()">
+        </ion-tab>
+      </ion-tabs>
+
+      <!-- social media sub header -->
+      <ion-tabs class="social-media-tabs" delegate-handle="social-media-tabs" ng-show="$root.showSubHeaderSocialMedia">
+        <ion-tab title="" icon-on="ion-social-twitter bg-dark-red" icon-off="ion-social-twitter" ng-click="$root.selectSocialTab(0)">
+        </ion-tab>
+        <ion-tab title="" icon-on="ion-social-facebook bg-dark-red" icon-off="ion-social-facebook" ng-click="$root.selectSocialTab(1)">
+        </ion-tab>
+        <ion-tab title="" icon-on="ion-social-instagram bg-dark-red" icon-off="ion-social-instagram" ng-click="$root.selectSocialTab(2)">
+        </ion-tab>
+      </ion-tabs>
+
+    </ion-header-bar>
+
+    
+
+    <ion-nav-view name="menuContent"></ion-nav-view>
+
+    <div class="row home-row-bottom center-justify-content" ng-if="$root.showAd" id="footer-add">
+      ADVERT SPACE
+    </div>
+
+    <ion-tabs class="tabs-icon-top tabs-general" delegate-handle="general-tabs" id="footer-tabs">
+      <ion-tab class="general-enq-icon" ng-click="$root.tabSelectIndex(0)" icon-on="ion-android-call bg-blue-activated general-tab-first" icon-off="ion-android-call general-tab-first">
+        <!-- Tab 1 content -->
+      </ion-tab>
+      <ion-tab ng-click="$root.tabSelectIndex(1)" icon-on="icon-planvisit bg-blue-activated general-tab-first" icon-off="icon-planvisit general-tab-first">
+        <!-- Tab 2 content -->
+      </ion-tab>
+      <ion-tab ng-click="$root.tabSelectIndex(2)" icon-on="icon-venuemap bg-blue-activated general-tab-first" icon-off="icon-venuemap general-tab-first">
+        <!-- Tab 3 content -->
+      </ion-tab>
+      <ion-tab ng-click="$root.tabSelectIndex(3)" icon-on="icon-socialmediafeeds bg-blue-activated" icon-off="icon-socialmediafeeds">
+        <!-- Tab 3 content -->
+      </ion-tab>
+    </ion-tabs>
+
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="menu-header-bar">
+      <ion-item menu-toggle class="menu-close-btn">
+        <i class="icon ion-android-close"></i>
+      </ion-item> 
+    </ion-header-bar>
+    <ion-content class="menu-content">
+      <ion-scroll style="height: 100%">
+        <ion-list>
+          <ion-item menu-toggle href="#/app/home" class="bg-white-activated menu-content-icon">
+            <i class="icon ion-android-home"></i>HOME
+          </ion-item>
+          <ion-item menu-toggle href="#/app/getting-there" class="menu-content-icon">
+            <i class="icon ion-ios-location"></i>GETTING THERE
+          </ion-item>
+          <ion-item menu-toggle href="#/app/at-event" class="menu-content-icon">
+            <i class="icon ion-android-calendar"></i>AT THE EVENT
+          </ion-item>
+          <ion-item menu-toggle href="#/app/discover-sa" class="menu-content-icon">
+            <i class="icon icon-discoversa"></i>DISCOVER SA
+          </ion-item>
+          <ion-item menu-toggle href="#/app/help-desk" class="menu-content-icon"><!-- #/app/playlists -->
+            <i class="icon ion-ios-help"></i>HELP DESK
+          </ion-item>
+          <ion-item class="menu-content-icon">
+          </ion-item>
+        </ion-list>
+      </ion-scroll>
+
+      <ion-tabs class="tabs-icon-top general-tabs-menu" delegate-handle="general-tabs-menu">
+        <ion-tab ng-click="$root.browserOpen('https://twitter.com/aadexpo')" icon-on="ion-social-twitter" icon-off="ion-social-twitter">
+          <!-- Tab 1 content -->
+        </ion-tab>
+        <ion-tab class="general-enq-icon-soc" ng-click="$root.browserOpen('https://mobile.facebook.com/africaaerospaceanddefence')" icon-on="ion-social-facebook" icon-off="ion-social-facebook">
+          <!-- Tab 2 content -->
+        </ion-tab>
+        <ion-tab ng-click="$root.browserOpen('https://www.instagram.com/aadexpo/')" icon-on="ion-social-instagram " icon-off="ion-social-instagram">
+          <!-- Tab 3 content -->
+        </ion-tab>
+        <!-- <ion-tab ng-click="$root.tabSelectIndex(3)" icon-on="icon-socialmediafeeds bg-gray" icon-off="icon-socialmediafeeds">
+        </ion-tab> -->
+      </ion-tabs>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

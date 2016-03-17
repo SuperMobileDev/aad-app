@@ -1,0 +1,180 @@
+<ion-modal-view class="header-modal-wrap">
+	<ion-header-bar align-title="center" class="bg-blue modal-header">
+	  <div class="buttons">
+		<button class="button bg-blue color-white" ng-click="modal2Close()">Close</button>
+	  </div>
+	  <h2 class="title">Exhibitor Map</h2>
+	  <!-- <div class="buttons">
+		<button class="button bg-green color-white modal-btn-right" ng-click="submitItemToCalendar()">Add</button>
+	  </div> -->
+	</ion-header-bar>
+	<ion-content class="modal-content-wrap" >
+		<div id="exhibitor-content-height">
+		<ion-scroll ng-style="{'height':exhibitorContentHeight}" style="width: 100%" locking="false" zooming="true" direction="xy" min-zoom="0.1" max-zoom="1" delegate-handle="hangar-map-scroll" overflow-scroll='false'>
+	    	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2000px" height="1500px" viewBox="0 0 4897 4000" enable-background="new 0 0 4897 2775" xml:space="preserve">
+				<path id="Line-Copy-12" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,21,10,10" d="
+					M3270,2370.508V401.059"/>
+				<path id="Line-Copy-13" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,21,10,10" d="
+					M3238,2370.508V401.059"/>
+				<path id="Line" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,20" d="M329.5,2342
+					h4385"/>
+				<title>Hanger map</title>
+				<desc>Created with Sketch.</desc>
+				<path id="Line-Copy-14" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,21,10,10" d="
+					M1812,2370.508V401.059"/>
+				<path id="Line-Copy-15" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,21,10,10" d="
+					M1780,2370.508V401.059"/>
+				<rect id="Rectangle-85" x="306" y="377" fill="none" stroke="#3E3E3E" stroke-width="8" width="4430" height="22"/>
+				<rect id="Rectangle-86" x="306" y="399" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy-9" x="4713" y="399" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy" x="307" y="755" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy-10" x="4714" y="755" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="443"/>
+				<rect id="Rectangle-86-Copy-4" x="307" y="1576" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="443"/>
+				<rect id="Rectangle-86-Copy-11" x="4714" y="1409" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="169"/>
+				<rect id="Rectangle-86-Copy-5" x="307" y="2063" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy-12" x="4716" y="2063" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy-13" x="4714" y="1710" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="309"/>
+				<rect id="Rectangle-86-Copy-6" x="307.5" y="2372.5" fill="none" stroke="#3E3E3E" stroke-width="8" width="576" height="23"/>
+				<rect id="Rectangle-86-Copy-7" x="1076" y="2373" fill="none" stroke="#3E3E3E" stroke-width="8" width="1351" height="23"/>
+				<rect id="Rectangle-86-Copy-8" x="2657" y="2373" fill="none" stroke="#3E3E3E" stroke-width="8" width="2081.5" height="23"/>
+				<rect id="Rectangle-86-Copy-2" x="307" y="1193" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="169"/>
+				<rect id="Rectangle-86-Copy-3" x="307" y="1410" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="34"/>
+				<rect id="Rectangle-86-Copy-14" x="4714" y="1328" fill="none" stroke="#3E3E3E" stroke-width="8" width="23" height="34"/>
+				<rect id="Rectangle-101" x="3391" y="577" fill="none" stroke="#3E3E3E" stroke-width="8" width="1125" height="717"/>
+				<rect id="Rectangle-101-Copy" x="3391" y="1477" fill="none" stroke="#3E3E3E" stroke-width="8" width="1125" height="717"/>
+				<rect id="Rectangle-103" x="530" y="1477" fill="none" stroke="#3E3E3E" stroke-width="8" width="543" height="763"/>
+				<rect id="Rectangle-103-Copy" x="1996" y="1477" fill="none" stroke="#3E3E3E" stroke-width="8" width="453" height="449"/>
+				<path id="Fill-1" fill="#C81E16" d="M79.085,1305.487l57.788-55.345c4.317-4.13,4.317-10.826,0-14.955
+					c-4.316-4.131-11.316-4.131-15.633,0l-65.041,62.291c-2.301,2.2-3.336,5.128-3.185,8.009c-0.151,2.882,0.884,5.808,3.185,8.01
+					l65.041,62.29c4.317,4.13,11.316,4.13,15.633,0c4.317-4.13,4.317-10.825,0-14.955L79.085,1305.487z"/>
+				<path id="N" fill="#C81E16" d="M146.867,1338.106v-64.642H159.6l26.526,43.168v-43.168h12.158v64.642h-13.13l-26.128-42.153v42.153
+					H146.867z"/>
+				
+				<path id="Line_1_" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,20" d="
+					M3395,1290.5v187.003"/>
+				<path id="Line-Copy-16" fill="none" stroke="#9B9B9B" stroke-width="8" stroke-linecap="square" stroke-dasharray="15,20" d="
+					M4512,1290.5v187.003"/>
+				<path id="Fill-1_1_" fill="#C81E16" d="M309.053,1130.688l17.841-17.086c1.333-1.275,1.333-3.343,0-4.617
+					c-1.332-1.275-3.493-1.275-4.826,0l-20.08,19.23c-0.71,0.68-1.03,1.583-0.983,2.473c-0.047,0.89,0.273,1.793,0.983,2.473
+					l20.08,19.23c1.333,1.275,3.493,1.275,4.826,0s1.333-3.342,0-4.617L309.053,1130.688z"/>
+				<path id="Fill-1_2_" fill="#C81E16" d="M308.053,1508.688l17.841-17.086c1.333-1.275,1.333-3.343,0-4.617
+					c-1.332-1.275-3.493-1.275-4.826,0l-20.08,19.23c-0.71,0.68-1.03,1.583-0.983,2.473c-0.047,0.89,0.273,1.793,0.983,2.473
+					l20.08,19.23c1.333,1.275,3.493,1.275,4.826,0s1.333-3.342,0-4.617L308.053,1508.688z"/>
+				<path id="Fill-1_3_" fill="#C81E16" d="M4731.852,1644.312l-17.841,17.086c-1.333,1.275-1.333,3.343,0,4.617
+					c1.333,1.275,3.493,1.275,4.826,0l20.079-19.23c0.711-0.68,1.031-1.583,0.984-2.473c0.047-0.89-0.273-1.793-0.984-2.473
+					l-20.079-19.23c-1.333-1.275-3.493-1.275-4.826,0s-1.333,3.342,0,4.617L4731.852,1644.312z"/>
+				<path id="Fill-1_4_" fill="#C81E16" d="M4731.852,1262.312l-17.841,17.086c-1.333,1.275-1.333,3.343,0,4.617
+					c1.333,1.275,3.493,1.275,4.826,0l20.079-19.23c0.711-0.68,1.031-1.583,0.984-2.473c0.047-0.89-0.273-1.793-0.984-2.473
+					l-20.079-19.23c-1.333-1.275-3.493-1.275-4.826,0s-1.333,3.342,0,4.617L4731.852,1262.312z"/>
+				<rect id="Rectangle-118" class="1E1" x="417" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-14" x="2617" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-17" x="2623" y="838" fill="none" stroke="#3E3E3E" stroke-width="8" width="229" height="233"/>
+				<rect id="Rectangle-118-Copy-19" x="2981" y="837" fill="none" stroke="#3E3E3E" stroke-width="8" width="229" height="233"/>
+				<rect id="Rectangle-118-Copy-18" x="2623" y="1071" fill="none" stroke="#3E3E3E" stroke-width="8" width="229" height="233"/>
+				<rect id="Rectangle-118-Copy-23" x="2995" y="1471" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-26" x="2995" y="1698.076" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-24" x="2777" y="1471" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-27" x="2777" y="1698.076" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-25" x="2559" y="1471" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-28" x="2559" y="1698.076" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-23_1_" x="1635" y="1472" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-26_1_" x="1635" y="1700" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-24_1_" x="1417" y="1472" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-27_1_" x="1417" y="1700" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-25_1_" x="1199" y="1472" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-28_1_" x="1199" y="1700" fill="none" stroke="#3E3E3E" stroke-width="8" width="218" height="227.924"/>
+				<rect id="Rectangle-118-Copy-20" x="2981" y="1070" fill="none" stroke="#3E3E3E" stroke-width="8" width="229" height="233"/>
+				<rect id="Rectangle-118-Copy-7" x="521" y="842" fill="none" stroke="#3E3E3E" stroke-width="8" width="278" height="233"/>
+				<rect id="Rectangle-118-Copy-9" x="521" y="1075" fill="none" stroke="#3E3E3E" stroke-width="8" width="278" height="233"/>
+				<rect id="Rectangle-118-Copy-8" x="798" y="842" fill="none" stroke="#3E3E3E" stroke-width="8" width="278" height="233"/>
+				<rect id="Rectangle-118-Copy-11" x="1204" y="842" fill="none" stroke="#3E3E3E" stroke-width="8" width="453" height="233"/>
+				<rect id="Rectangle-118-Copy-12" x="1204" y="1075" fill="none" stroke="#3E3E3E" stroke-width="8" width="453" height="233"/>
+				<rect id="Rectangle-118-Copy-13" x="1795" y="1071" fill="none" stroke="#3E3E3E" stroke-width="8" width="453" height="233"/>
+				<rect id="Rectangle-118-Copy-10" x="798" y="1075" fill="none" stroke="#3E3E3E" stroke-width="8" width="278" height="233"/>
+				<rect id="Rectangle-118-Copy" x="597" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-15" x="2797" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="233" height="180"/>
+				<rect id="Rectangle-118-Copy-2" x="777" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-16" x="3030" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-3" x="957" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-4" x="1137" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-5" x="1317" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-6" x="1497" y="487" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118_1_" x="1202" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy_1_" x="1404.479" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy-2_1_" x="1606.834" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy-3_1_" x="1809.189" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy-4_1_" x="2011.421" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy-5_1_" x="2213.651" y="2065" fill="none" stroke="#3E3E3E" stroke-width="8" width="202.349" height="180"/>
+				<rect id="Rectangle-118-Copy-14_1_" x="2615" y="2060" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-118-Copy-15_1_" x="2796" y="2060" fill="none" stroke="#3E3E3E" stroke-width="8" width="233" height="180"/>
+				<rect id="Rectangle-118-Copy-16_1_" x="3029" y="2060" fill="none" stroke="#3E3E3E" stroke-width="8" width="180" height="180"/>
+				<rect id="Rectangle-111" x="1791" y="486" fill="none" stroke="#C81E16" stroke-width="10" width="676" height="450"/>
+				<text transform="matrix(1 0 0 1 488 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E1</text>
+				<text transform="matrix(1 0 0 1 619 1046)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE1</text>
+				<text transform="matrix(1 0 0 1 613 1271)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE15</text>
+				<text transform="matrix(1 0 0 1 873 1273)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE14</text>
+				<text transform="matrix(1 0 0 1 889 1043)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE2</text>
+				<text transform="matrix(1 0 0 1 1381 1043)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE4</text>
+				<text transform="matrix(1 0 0 1 1373 1271)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE12</text>
+				<text transform="matrix(1 0 0 1 770 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">7W1</text>
+				<text transform="matrix(1 0 0 1 1955 1271)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE10</text>
+				<text transform="matrix(1 0 0 1 1317 1180)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">AMPHENOL</text>
+				<text transform="matrix(1 0 0 1 685 1875)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">ARMSCOR</text>
+				<text transform="matrix(1 0 0 1 1913 1167)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">CARACAL</text>
+				<text transform="matrix(1 0 0 1 2055 1700)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">PRESENTATION</text>
+				<text transform="matrix(1 0 0 1 2390.0498 1700)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45"> </text>
+				<text transform="matrix(1 0 0 1 2121.0957 1750)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">THEATRE</text>
+				<text transform="matrix(1 0 0 1 811.5 1139)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">STURROCK</text>
+				<text transform="matrix(1 0 0 1 1059.293 1139)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45"> </text>
+				<text transform="matrix(1 0 0 1 816.499 1189)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">GRINDROD</text>
+				<text transform="matrix(1 0 0 1 2592.4805 1141)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45"> </text>
+				<text transform="matrix(1 0 0 1 3904.5 1851)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">DOD</text>
+				<text transform="matrix(1 0 0 1 3904.5 954)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">DOD</text>
+				<text transform="matrix(1 0 0 1 654 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E2</text>
+				<text transform="matrix(1 0 0 1 833 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E3</text>
+				<text transform="matrix(1 0 0 1 1014 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E4</text>
+				<text transform="matrix(1 0 0 1 1189 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E5</text>
+				<text transform="matrix(1 0 0 1 1249 1666)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW1</text>
+				<text transform="matrix(1 0 0 1 1264 2207)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W1</text>
+				<text transform="matrix(1 0 0 1 1465 2207)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W2</text>
+				<text transform="matrix(1 0 0 1 1670 2205)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W3</text>
+				<text transform="matrix(1 0 0 1 1862 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W4</text>
+				<text transform="matrix(1 0 0 1 2073 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W5</text>
+				<text transform="matrix(1 0 0 1 2278 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W6</text>
+				<text transform="matrix(1 0 0 1 2670 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W7</text>
+				<text transform="matrix(1 0 0 1 2874 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W8</text>
+				<text transform="matrix(1 0 0 1 3082 2204)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1W9</text>
+				<text transform="matrix(1 0 0 1 3897 2126)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW19</text>
+				<text transform="matrix(1 0 0 1 2611 1669)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW6</text>
+				<text transform="matrix(1 0 0 1 2605 1892)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW11</text>
+				<text transform="matrix(1 0 0 1 1240 1890)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW16</text>
+				<text transform="matrix(1 0 0 1 1477 1666)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW2</text>
+				<text transform="matrix(1 0 0 1 2834 1669)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW7</text>
+				<text transform="matrix(1 0 0 1 2822 1892)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW10</text>
+				<text transform="matrix(1 0 0 1 1465 1891)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW15</text>
+				<text transform="matrix(1 0 0 1 1695 1666)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW3</text>
+				<text transform="matrix(1 0 0 1 3054 1669)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW8</text>
+				<text transform="matrix(1 0 0 1 3056 1892)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW9</text>
+				<text transform="matrix(1 0 0 1 1679 1890)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CW14</text>
+				<text transform="matrix(1 0 0 1 2664 640)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E11</text>
+				<text transform="matrix(1 0 0 1 2685 1044)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE5</text>
+				<text transform="matrix(1 0 0 1 3045 1044)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE6</text>
+				<text transform="matrix(1 0 0 1 2685 1263)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE8</text>
+				<text transform="matrix(1 0 0 1 3045 1263)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE7</text>
+				<text transform="matrix(1 0 0 1 1372 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E6</text>
+				<text transform="matrix(1 0 0 1 2867 640)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E12</text>
+				<text transform="matrix(1 0 0 1 1551 638)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E7</text>
+				<text transform="matrix(1 0 0 1 3073 640)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E13</text>
+				<text transform="matrix(1 0 0 1 2084 878)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1E10</text>
+				<text transform="matrix(1 0 0 1 1952.5 698)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">AFRICAN UNITY</text>
+				<text transform="matrix(1 0 0 1 2290.7803 698)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45"> </text>
+				<text transform="matrix(1 0 0 1 2022.3203 748)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">PAVILION</text>
+				<text transform="matrix(1 0 0 1 2458 1258)" fill="#003690" font-family="'Arial-BoldMT'" font-size="40">1CE9</text>
+				<text transform="matrix(1 0 0 1 2427 1141)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">MONCH</text>
+				<text transform="matrix(1 0 0 1 2429.4829 1191)" fill="#003690" font-family="'Arial-BoldMT'" font-size="45">GROUP</text>
+				<rect id="Rectangle-116" x="2398" y="1070" fill="none" stroke="#F6A623" stroke-width="10" width="224" height="233"/>
+			</svg>
+	    </ion-scroll>
+	</ion-content>
+</ion-modal-view>

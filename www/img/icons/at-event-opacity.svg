@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="68px" height="68px"
+	 viewBox="0 0 68 68" enable-background="new 0 0 68 68" xml:space="preserve">
+<title>at event</title>
+<desc>Created with Sketch.</desc>
+<g id="App" sketch:type="MSPage">
+	<g id="_x30_2_x5F_AAD-home-3" transform="translate(-70.000000, -129.000000)" sketch:type="MSArtboardGroup">
+		<g id="at-event" transform="translate(71.000000, 130.000000)" sketch:type="MSLayerGroup">
+			<g>
+				<circle id="Oval-13-Copy_1_" sketch:type="MSShapeGroup" fill="#FFFFFF" fill-opacity="0.12" cx="33" cy="33" r="33">
+				</circle>
+				<path fill="#FFFFFF" d="M33,66.5C14.528,66.5-0.5,51.472-0.5,33C-0.5,14.528,14.528-0.5,33-0.5c18.472,0,33.5,15.028,33.5,33.5
+					C66.5,51.472,51.472,66.5,33,66.5z M33,0.5C15.08,0.5,0.5,15.08,0.5,33c0,17.921,14.58,32.5,32.5,32.5
+					c17.921,0,32.5-14.579,32.5-32.5C65.5,15.08,50.921,0.5,33,0.5z"/>
+			</g>
+			<g transform="translate(18.000000, 17.000000)">
+				<path id="Fill-1" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M23.619,4.43V1.475C23.619,0.66,22.956,0,22.143,0
+					c-0.814,0-1.477,0.66-1.477,1.475V4.43c0,0.815,0.664,1.475,1.477,1.475C22.957,5.905,23.619,5.245,23.619,4.43"/>
+				<g id="Clip-4">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="7.381" y="0" width="2.953" height="5.905">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="7.381" y="0" width="2.953" height="5.905" id="mask-2">
+					<g filter="url(#Adobe_OpacityMaskFilter)">
+						<path id="path-1" fill="#FFFFFF" d="M0,0h31v31H0V0z"/>
+					</g>
+				</mask>
+				<path id="Fill-3" sketch:type="MSShapeGroup" mask="url(#mask-2)" fill="#FFFFFF" d="M9.226,5.905
+					c0.611,0,1.107-0.493,1.107-1.11V1.11C10.333,0.498,9.839,0,9.226,0H8.488C7.877,0,7.381,0.493,7.381,1.11v3.683
+					c0,0.614,0.495,1.112,1.107,1.112H9.226z"/>
+				<g id="Clip-7">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="2.952" width="31" height="28.048">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="0" y="2.952" width="31" height="28.048" id="mask-4">
+					<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+						<path id="path-3" fill="#FFFFFF" d="M0,0h31v31H0V0z"/>
+					</g>
+				</mask>
+				<path id="Fill-6" sketch:type="MSShapeGroup" mask="url(#mask-4)" fill="#FFFFFF" d="M5.905,17.715H1.476v-4.429h4.429V17.715z
+					 M5.905,23.619H1.476V19.19h4.429V23.619z M5.905,29.523H2.111c-0.351,0-0.635-0.246-0.635-0.552v-3.876h4.429V29.523z
+					 M7.381,25.096h4.429v4.428H7.381V25.096z M7.381,19.19h4.429v4.429H7.381V19.19z M7.381,13.286h4.429v4.429H7.381V13.286z
+					 M13.286,25.096h4.429v4.428h-4.429V25.096z M13.286,13.286h4.429v4.429h-4.429V13.286z M19.19,25.096h4.429v4.428H19.19V25.096
+					z M19.19,19.19h4.429v4.429H19.19V19.19z M19.19,13.286h4.429v4.429H19.19V13.286z M25.096,25.096h4.428v3.876
+					c0,0.304-0.283,0.552-0.635,0.552h-3.793V25.096L25.096,25.096z M25.096,19.19h4.428v4.429h-4.428V19.19z M25.096,13.286h4.428
+					v4.429h-4.428V13.286z M0.929,2.953C0.415,2.953,0,3.382,0,3.909v26.133C0,30.572,0.415,31,0.927,31h29.144
+					C30.585,31,31,30.57,31,30.042V3.909c0-0.528-0.416-0.957-0.929-0.957h-4.976v2.762c0,0.927-0.992,1.667-2.217,1.667h-1.473
+					c-1.229,0-2.216-0.746-2.216-1.667V2.953H11.81v2.762c0,0.927-0.992,1.667-2.216,1.667H8.121c-1.228,0-2.216-0.746-2.216-1.667
+					V2.953H0.929z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

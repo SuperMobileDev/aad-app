@@ -1,0 +1,24 @@
+<ion-view align-title="center" view-title="AT THE EVENT">
+
+  <ion-content class="content-sub-header">
+  	<ion-list class="general-list">
+      	<ion-item id="{{item.id}}" ng-click="viewExhibitor(item.id)" class="general-list-item center-content" ng-repeat="item in exhibitorsArray">
+        	{{item.title}}
+        	<button click-for-options class="icon ion-more color-red item-icon-more"></button>
+        	<!-- <ion-option-button class="ion-list-swipe-btn center-justify-content" ng-click="">
+		      	<i class="icon ion-ios-arrow-right"></i>
+		    </ion-option-button> -->
+		    <ion-option-button class="ion-list-swipe-btn center-justify-content" ng-click="exhibitorCalendar(item.title, item.location)">
+		      	<i class="icon ion-android-calendar"></i>
+		    </ion-option-button>
+		    <ion-option-button class="ion-list-swipe-btn center-justify-content" ng-click="exhibitorRate(item.title)">
+		      	<i class="icon ion-android-star"></i>
+		    </ion-option-button>
+		    <ion-option-button class="ion-list-swipe-btn center-justify-content" ng-click="$root.exhibitorLocation()">
+		      	<i class="icon ion-android-pin"></i>
+		    </ion-option-button>
+      	</ion-item>
+    </ion-list>
+    <div class="bottom-spacer"></div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-view align-title="center" view-title="DISCOVER SA">
+
+	<ion-content class="content-sub-header">
+
+		<div class="center-justify-content color-gray loading-spinner" ng-hide="contentLoaded">
+			<ion-spinner class="color-gray spinner-gray"></ion-spinner>&nbsp;&nbsp;Loading Accommodations...
+		</div>
+
+		<div ng-show="contentLoaded">
+
+			<ion-list class="accommodation-list">
+		      <ion-item href="#/app/accommodation-city-chosen-detail/accommId={{accommodation.id}}+accommName={{accommodation.n}}" class="accommodation-list-item" ng-repeat="accommodation in accommodations">
+		      	<div class="accommodation-img">
+			      	<img ng-src="http://www.proportal.co.za/{{accommodation.tb}}" class="center-image">
+			    </div>
+			    <div class="accommodation-wrapper">
+				    <div class="accommodation-title">
+			        	{{accommodation.n}}
+			        </div>
+			        <div class="accommodation-price">
+			        	<p>{{accommodation.pl}} ZAR</p>
+			        </div>
+			    </div>
+		        <i class="icon ion-chevron-right color-red"></i>
+		      </ion-item>
+		    </ion-list>
+		    <div class="bottom-spacer"></div>
+
+		</div>
+
+	    
+	</ion-content>
+
+</ion-view>

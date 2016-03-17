@@ -1,0 +1,18 @@
+<ion-view align-title="center" view-title="DISCOVER SA">
+
+	<ion-content class="content-sub-header">
+
+		<div class="center-justify-content color-gray loading-spinner" ng-hide="contentLoaded">
+			<ion-spinner class="color-gray spinner-gray"></ion-spinner>&nbsp;&nbsp;Loading Cities...
+		</div>
+
+	    <ion-list class="general-list">
+	      <ion-item ng-href="#/app/accommodation-city-chosen/{{city.city_id}}+cityName={{city.city}}" class="general-list-item" ng-repeat="city in cities">
+	        {{city.city}} ({{city.num}})
+	        <i class="icon ion-chevron-right color-red"></i>
+	      </ion-item>
+	    </ion-list>
+	    <div class="bottom-spacer"></div>
+	</ion-content>
+
+</ion-view>

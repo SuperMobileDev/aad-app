@@ -1,0 +1,147 @@
+<ion-view align-title="center" view-title="DISCOVER SA">
+
+	<ion-content class="content-sub-header">
+
+		<div class="center-justify-content color-gray loading-spinner" ng-hide="contentLoaded">
+			<ion-spinner class="color-gray spinner-gray"></ion-spinner>&nbsp;&nbsp;Loading Accommodation...
+		</div>
+
+		<div ng-show="contentLoaded">
+
+			<!-- autoplay: 3000, -->
+		  	<ion-slides options="{autoplay: 3000, autoplayDisableOnInteraction: false}" slider="slider" class="single-accom-slider" id="slider">
+				<ion-slide-page ng-repeat="item in accomGallery">
+					<div class="image-loader" ng-attr-id="{{$index}}">
+	                	<ion-spinner class="color-gray spinner-gray"></ion-spinner>
+	                </div>	
+					<img class="center-image" ng-src="http://www.proportal.co.za/{{item}}" ng-onload="imgLoaded($index)">	
+				</ion-slide-page>
+			</ion-slides>
+
+			<div class="row accomm-tabs-wrapper">
+				<div class="col bg-red color-white center-justify-content accomm-tab" ng-click="selectTab(0, true)" id="accomm-tab-0">Accommodation</div>
+				<div class="col bg-red color-white center-justify-content accomm-tab" ng-click="selectTab(1, true)" id="accomm-tab-1">Facilities</div>
+				<div class="col bg-red color-white center-justify-content accomm-tab" ng-click="selectTab(2, true)" id="accomm-tab-2">Activities</div>
+			</div>
+
+			<!-- Accommodation template -->
+			<div class="padding" ng-show="accommodationShow">
+			    <h1 class="color-blue">
+			      	<b>{{accommodation.n}}</b>
+			    </h1>		    
+			    <h2 class="color-gray row">
+			    	<div class="col col-25">
+			      		<b>Type:</b> 
+			      	</div>
+			      	<div class="col col-75">
+			      		{{accommodation.t}}
+			      	</div>
+			    </h2>
+			    <h2 class="color-gray row" ng-show="priceShow">
+			    	<div class="col col-25">
+			    		<b>Price:</b>
+			    	</div>
+			    	<div class="col col-75">
+			      		{{accommodation.pl}} ZAR {{accommodation.pc}}
+			      	</div>
+			    </h2>
+			    <h2 class="color-gray row" ng-hide="priceShow">
+			    	<div class="col col-25">
+			    		<b>Price:</b>
+			    	</div>
+			    	<div class="col col-75">
+			      		Contact for price
+			      	</div>
+			    </h2>
+			    <h2 class="color-gray row">
+			    	<div class="col col-25">
+			    		<b>Tel:</b>
+			    	</div>
+			    	<div class="col col-75">
+			      		<a ng-href="tel:{{number}}">{{number}}</a>
+			      	</div>
+			    </h2>
+			    <h2 class="color-gray row">
+			    	<div class="col col-25">
+			    		<b>Map:</b>
+			    	</div>
+			    	<div class="col col-75">
+			    		<a href="" ng-click="openMaps(accommodation.lat, accommodation.lon)">View Location</a>
+			    	</div>
+			    </h2>
+			    <br>
+			    <div class="accom-title-underline"></div>
+			   	<br>
+			    <p class="gray">
+			    	{{accommodation.de}}
+			    </p>
+			</div>
+
+			<!-- Amenities template -->
+			<div class="padding" ng-show="facilitiesShow">
+			    <h1 class="color-blue">
+			      	<b>Amenities</b>
+			    </h1>
+			    <div class="accom-title-underline"></div>
+			   	<br>
+			   	<ul>
+		   			<li ng-repeat="amenity in amenities" class="gray">
+		    			{{amenity}}
+		    		</li>
+		    	</ul>
+			    <h1 class="color-blue">
+			      	<b>Facilities</b>
+			    </h1>
+			    <br>
+			    <div class="accom-title-underline"></div>
+			   	<br>
+		   		<ul>
+		   			<li ng-repeat="facility in facilities" class="gray">
+		    			{{facility}}
+		    		</li>
+		    	</ul>
+			</div>
+
+			<!-- Activities template -->
+			<div class="padding" ng-show="activitiesShow">
+			    <h1 class="color-blue">
+			      	<b>Activities</b>
+			    </h1>
+			    <div class="accom-title-underline"></div>
+			   	<br>
+			   	<ul>
+		   			<li ng-repeat="activity in activities" class="gray">
+		    			{{activity}}
+		    		</li>
+		    	</ul>
+			</div>
+
+			<br>
+			<div class="row single-accom-edit bg-blue">
+				<a class="col single-accom-btn bg-red" ng-href="tel:{{number}}">			
+					<i class="icon ion-ios-telephone"></i>				
+				</a>
+				<a class="col single-accom-btn bg-red" ng-click="openMaps(accommodation.lat, accommodation.lon)">
+					<i class="icon ion-map"></i>
+				</a>
+			</div>
+			<div class="row single-accom-map">
+				<div id="single_accom_map_canvas">
+				</div>
+			</div>
+			<div class="clear"></div>
+			<br>
+			<div class="padding">
+				<p class="blue">
+					<!-- <b>GPS:</b> <a href="" ng-click="openMaps(accommodation.lat, accommodation.lon)">{{accommodation.lat}}, {{accommodation.lon}}</a><br> -->
+					<b>Address:</b> {{accommodation.p}}
+				</p>
+			</div>
+
+			<div class="bottom-spacer"></div>
+
+		</div>
+	    
+	</ion-content>
+
+</ion-view>

@@ -1,0 +1,64 @@
+<ion-view align-title="center" view-title="GETTING THERE">
+
+  <ion-content class="content-sub-header padding">
+
+    <div ng-if="orthambo">
+    	<img width="100%" src="img/maps/or-tambo-map.svg"/>
+    	<p class="enq-text">
+          <ul class="enq-text-rules">
+            <li><i class="icon ion-chevron-right color-red"></i>From OR Tambo International Airport take exit 46 for R21 N toward Kempton Park / Pretoria.</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Merge onto R21.</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Take exit 7 for M10/Hans Strijdom. Drive toward</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Pretoria/Hans Strijdom Ryln/Lyttelton.</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Turn left onto Solomon Mahlangu Dr/M10.</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Turn left onto Trichardt Rd.</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Turn left onto Smuts Ave.</li>
+          </ul>
+        </p>
+        <div class="center-justify-content">
+            <button class="button bg-red color-white" ng-click="openGps(-25.825048, 28.223029)">
+              VIEW ADDRESS WITH GPS
+            </button>
+        </div>
+    </div>
+
+    <div ng-if="wonderboom">
+    	<img width="100%" src="img/maps/wonderboom-map.svg"/>
+    	<p class="enq-text">
+          <ul class="enq-text-rules">
+            <li><i class="icon ion-chevron-right color-red"></i>Get on N4 from Airport Road</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Turn left to merge onto N4 toward eMalahleni/N1</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Take N1 to Solomon Mahlangu Dr/M10</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Take exit 7 from R21 toward Pretoria/Hans Strijdom-Ryln</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Continue on M10 to your destination in Centurion</li>
+          </ul>
+        </p>
+        <div class="center-justify-content">
+            <button class="button bg-red color-white" ng-click="openGps(-25.825048, 28.223029)">
+              VIEW ADDRESS WITH GPS
+            </button>
+        </div>
+    </div>
+
+    <div ng-if="lanseria">
+    	<img width="100%" src="img/maps/lanseria-map.svg"/>
+    	<p class="enq-text">
+          <ul class="enq-text-rules">
+            <li><i class="icon ion-chevron-right color-red"></i>Head southwest on Airport Rd toward Ashenti Rd</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Take Ashenti Rd to Pelindaba Rd/R512</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Take R114 to M10 in Centurion</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Turn left onto Old Johannesburg Rd/R101</li>
+            <li><i class="icon ion-chevron-right color-red"></i>Continue on M10 to your destination</li>
+          </ul>
+        </p>
+        <div class="center-justify-content">
+            <button class="button bg-red color-white" ng-click="openGps(-25.825048, 28.223029)">
+              VIEW ADDRESS WITH GPS
+            </button>
+        </div>
+    </div>
+
+    <div class="bottom-spacer"></div>
+    
+  </ion-content>
+</ion-view>

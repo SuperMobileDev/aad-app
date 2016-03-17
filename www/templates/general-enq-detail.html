@@ -1,0 +1,39 @@
+<ion-view align-title="center" view-title="GENERAL ENQUIRIES">
+  	<ion-content class="content-sub-header">
+
+	  	<div class="list general-list contact-list">
+	  		<div class="error padding" ng-if="nameError">
+		  		Your name cannot be less than 3 letters.
+		  	</div>
+		  <label class="item item-input">
+		    <input type="text" placeholder="First Name" ng-model="firstName" ng-blur="checkInput('name', firstName)">
+		  </label>
+		  <div class="contact-list-border"></div>
+		  	<div class="error padding" ng-if="emailError">
+			  	Please enter a valid email address
+			</div>
+		  <label class="item item-input">
+		    <input type="email" placeholder="Email" ng-model="email" ng-blur="checkInput('email', email)">
+		  </label>
+		  <div class="contact-list-border"></div>
+		  <label class="item item-input">
+		    <input type="number" placeholder="Contact Number" ng-model="number">
+		  </label>
+		  <div class="contact-list-border"></div>
+		  	<div class="error padding" ng-if="messageError">
+		  		Please enter a message.
+		  	</div>
+		  <div class="text-area-label-wrapper">
+		  	<textarea class="text-area-label" placeholder="Message" ng-model="message" ng-blur="checkInput('message', message)"></textarea>
+		  </div>
+		</div>
+
+		<div class="center-justify-content">
+			<button class="button bg-green color-white" ng-click="submitContactForm(firstName, email, number, message)">
+			  <ion-spinner class="spinner-white" ng-if="showSending"></ion-spinner>SUBMIT
+			</button>
+		</div>
+
+		<div class="bottom-spacer"></div>
+  	</ion-content>  
+</ion-view>

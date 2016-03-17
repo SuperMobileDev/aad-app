@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="655px" height="777px" viewBox="0 0 655 777" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Lanseria map</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lanseria-map">
+            <path d="M471.982715,90.5615061 L460.295102,127.697306 L462.811862,138.113654 L480.137129,182.668024 L480.137129,196.142278 L473.256842,246.400157 L476.028427,273.569132 L476.792903,290.066932 L469.944111,310.896766 L466.18472,328.731685" id="Path-70" stroke="#D7D7D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(470.216116, 209.646595) rotate(-21.000000) translate(-470.216116, -209.646595) "></path>
+            <path d="M244.366437,363.168572 L252.234531,377.885458 L259.051828,382.437958 L265.29362,384.476562 L263.318007,415.244588 L260.039634,446.041247 L252.681191,462.539047 L251.407064,492.671442 L239.656461,550.44524 L246.50239,563.089164 L238.190499,589.238837" id="Path-71" stroke="#D7D7D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(251.742059, 476.203705) rotate(-21.000000) translate(-251.742059, -476.203705) "></path>
+            <path d="M65.4450112,718.944273 L85.4788732,716.682339 L110.574886,696.107331 L132.710342,678.303907 L140.068785,667.349276 L149.972619,650.565154 L156.056935,645.817957 L185.834291,650.404815 L217.653115,663.143224 L233.44943,668.749384 L238.036288,680.119181 L232.971274,698.306274 L244.341071,713.947976" id="Path-72" stroke="#D7D7D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(154.893041, 682.381115) rotate(-21.000000) translate(-154.893041, -682.381115) "></path>
+            <path d="M137.390485,739.567699 L121.657161,728.358242 L113.883553,708.261389 L116.176982,676.763245" id="Path-73" stroke="#D7D7D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(125.637019, 708.165472) rotate(-21.000000) translate(-125.637019, -708.165472) "></path>
+            <path d="M469.330897,40.3264583 C469.330897,40.3264583 459.219893,52.911601 461.501899,58.8564285 C463.783905,64.8012561 473.490991,90.1769669 473.490991,90.1769669 L486.508058,113.429493 L502.671018,151.269012 C502.671018,151.269012 508.581376,172.434493 504.953142,180.583651 C501.324907,188.732809 499.668478,202.194466 499.668478,202.194466 L504.651972,237.124274 C504.651972,237.124274 503.409296,266.053016 495.274569,272.417372 C487.139843,278.781729 475.54832,291.41688 465.941343,298.380111 C456.334366,305.343341 430.281022,316.129414 430.281022,316.129414 L396.315406,333.228182 L359.731403,357.367733 L339.652348,374.561314 L325.889481,385.542703 L273.208948,414.496358 L253.189128,443.572946 L216.590375,491.498982 L182.024134,523.291856 L143.302469,564.353258 L137.143985,610.077256 L133.540594,638.992121 L109.699198,670.728702 L104.875878,677.186701 L89.7717705,659.786515 L77.9929979,643.498977 L56.6955818,629.874691 L38.279669,605.452863 L51.8037911,576.072718" id="Path-69" stroke="#BDBBBB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M566.716666,100.41511 L559.684748,99.262921 L549.250911,96.3977867 L538.905322,85.1751933 L536.985094,76.6468944 L534.173909,85.775153 L516.704106,97.1996465 L507.369948,108.760111 L477.166433,120.354155 L457.29704,131.311981 L439.021266,144.885841 L449.06766,158.131877 L443.14706,165.123047 L449.863821,194.91283 L447.255941,202.572145 L419.334585,252.559751 L385.891608,314.103837 L337.907762,328.359759 L288.842392,366.551434 L276.255373,386.268288 L267.096058,398.008008 L249.553894,422.259074 L243.738829,430.248232 L247.418831,439.834967 L240.480898,447.425602 L215.255186,489.161972 L198.242915,500.965949 L193.17758,508.739041 L198.915681,516.456705 L191.561167,531.679452 L165.873179,558.570904 L157.805636,569.994446 L156.735905,582.302594 L148.703959,589.48051 L145.853401,642.783473 L142.30523,649.902451 C142.30523,649.902451 116.999289,636.030421 116.999285,636.030408 C116.99928,636.030395 85.0062989,650.737647 85.0062989,650.737647 L74.7065174,637.554572 L55.5628189,626.899385 L37.6515375,601.930703 L53.3248349,573.712866 L60.5841044,576.895323 L62.7063306,570.944318" id="Path-59" stroke="#666666" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+            <ellipse id="Oval-20-Copy-10" stroke="#004590" fill="#FFFFFF" transform="translate(560.652499, 98.335016) rotate(-21.000000) translate(-560.652499, -98.335016) " cx="560.652499" cy="98.3350162" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-23" stroke="#004590" fill="#FFFFFF" transform="translate(537.048179, 73.119226) rotate(-21.000000) translate(-537.048179, -73.119226) " cx="537.048179" cy="73.1192259" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-24" stroke="#004590" fill="#FFFFFF" transform="translate(536.897537, 83.888502) rotate(-21.000000) translate(-536.897537, -83.888502) " cx="536.897537" cy="83.8885019" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-25" stroke="#004590" fill="#FFFFFF" transform="translate(437.778250, 146.573166) rotate(-21.000000) translate(-437.778250, -146.573166) " cx="437.77825" cy="146.573166" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-26" stroke="#004590" fill="#FFFFFF" transform="translate(447.821672, 158.785033) rotate(-21.000000) translate(-447.821672, -158.785033) " cx="447.821672" cy="158.785033" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-27" stroke="#004590" fill="#FFFFFF" transform="translate(242.381636, 427.238738) rotate(-21.000000) translate(-242.381636, -427.238738) " cx="242.381636" cy="427.238738" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-28" stroke="#004590" fill="#FFFFFF" transform="translate(246.106839, 439.733651) rotate(-21.000000) translate(-246.106839, -439.733651) " cx="246.106839" cy="439.733651" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-29" stroke="#004590" fill="#FFFFFF" transform="translate(143.086722, 648.520278) rotate(-21.000000) translate(-143.086722, -648.520278) " cx="143.086722" cy="648.520278" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-30" stroke="#004590" fill="#FFFFFF" transform="translate(84.355595, 651.784435) rotate(-21.000000) translate(-84.355595, -651.784435) " cx="84.355595" cy="651.784435" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-31" stroke="#004590" fill="#FFFFFF" transform="translate(50.301521, 577.022680) rotate(-21.000000) translate(-50.301521, -577.022680) " cx="50.301521" cy="577.02268" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-32" stroke="#004590" fill="#FFFFFF" transform="translate(63.588492, 569.780000) rotate(-21.000000) translate(-63.588492, -569.780000) " cx="63.5884915" cy="569.78" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-11" stroke="#004590" fill="#FFFFFF" transform="translate(549.024963, 93.158104) rotate(-21.000000) translate(-549.024963, -93.158104) " cx="549.024963" cy="93.1581039" rx="4.73601399" ry="4.72924528"></ellipse>
+            <ellipse id="Oval-20-Copy-12" stroke="#004590" fill="#FFFFFF" transform="translate(546.007378, 96.458737) rotate(-21.000000) translate(-546.007378, -96.458737) " cx="546.007378" cy="96.4587365" rx="4.73601399" ry="4.72924528"></ellipse>
+            <polygon id="Polygon-1" fill="#004590" transform="translate(202.252519, 506.130435) rotate(2.000000) translate(-202.252519, -506.130435) " points="202.252519 494.130435 213.665197 502.422231 209.305942 515.838639 195.199096 515.838639 190.839841 502.422231 "></polygon>
+            <text id="14" transform="translate(201.568113, 507.107144) rotate(2.000000) translate(-201.568113, -507.107144) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="194.068113" y="512.107144">14</tspan>
+            </text>
+            <polygon id="Polygon-1" fill="#004590" transform="translate(111.702136, 672.060269) rotate(-2.000000) translate(-111.702136, -672.060269) " points="111.702136 660.060269 123.114814 668.352065 118.755559 681.768473 104.648713 681.768473 100.289457 668.352065 "></polygon>
+            <text id="14" transform="translate(111.087529, 673.082341) rotate(-2.000000) translate(-111.087529, -673.082341) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="103.587529" y="678.082341">14</tspan>
+            </text>
+            <polygon id="Polygon-1" fill="#004590" transform="translate(340.618658, 372.680776) rotate(-2.000000) translate(-340.618658, -372.680776) " points="340.618658 360.680776 352.031336 368.972572 347.672081 382.388979 333.565235 382.388979 329.20598 368.972572 "></polygon>
+            <text id="14" transform="translate(340.004051, 373.702848) rotate(-2.000000) translate(-340.004051, -373.702848) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="332.504051" y="378.702848">14</tspan>
+            </text>
+            <polygon id="Polygon-1" fill="#004590" transform="translate(497.503393, 136.790589) rotate(-2.000000) translate(-497.503393, -136.790589) " points="497.503393 124.790589 508.916071 133.082385 504.556816 146.498793 490.44997 146.498793 486.090715 133.082385 "></polygon>
+            <text id="14" transform="translate(496.888786, 137.812661) rotate(-2.000000) translate(-496.888786, -137.812661) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="489.388786" y="142.812661">14</tspan>
+            </text>
+            <ellipse id="Oval-13-Copy-3" stroke="#96120C" stroke-width="3" fill="#C81E16" transform="translate(573.887135, 91.838985) rotate(-21.000000) translate(-573.887135, -91.838985) " cx="573.887135" cy="91.8389851" rx="8.41958042" ry="8.40754717"></ellipse>
+            <ellipse id="Oval-13-Copy-2" stroke="#01346B" stroke-width="3" fill="#004590" transform="translate(72.929262, 578.229723) rotate(-21.000000) translate(-72.929262, -578.229723) " cx="72.929262" cy="578.229723" rx="8.41958042" ry="8.40754717"></ellipse>
+            <rect id="Rectangle-301" fill="#004590" transform="translate(411.767194, 267.038115) rotate(-1.000000) translate(-411.767194, -267.038115) " x="394.687194" y="259.156039" width="34.1599998" height="15.7641509"></rect>
+            <text id="R114" transform="translate(412.846120, 267.119410) rotate(-1.000000) translate(-412.846120, -267.119410) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="397.84612" y="272.11941">R114</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" transform="translate(302.068427, 355.210942) rotate(-2.000000) translate(-302.068427, -355.210942) " x="284.988427" y="347.328866" width="34.1599998" height="15.7641509"></rect>
+            <text id="R114" transform="translate(303.148608, 355.273395) rotate(-2.000000) translate(-303.148608, -355.273395) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="288.148608" y="360.273395">R114</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" x="470.165509" y="240.890103" width="34.1599998" height="15.7641509"></rect>
+            <text id="R101" font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="473.322851" y="253.872291">R101</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" x="214.752567" y="404.27379" width="34.1599998" height="15.7641509"></rect>
+            <text id="R511" font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="217.90991" y="417.255979">R511</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" transform="translate(124.934562, 722.488076) rotate(-1.000000) translate(-124.934562, -722.488076) " x="107.854562" y="714.606001" width="34.1599998" height="15.7641509"></rect>
+            <text id="R512" transform="translate(126.013488, 722.569372) rotate(-1.000000) translate(-126.013488, -722.569372) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="111.013488" y="727.569372">R512</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" transform="translate(174.380069, 642.015918) rotate(-1.000000) translate(-174.380069, -642.015918) " x="157.300069" y="634.133842" width="34.1599998" height="15.7641509"></rect>
+            <text id="R552" transform="translate(175.458995, 642.097214) rotate(-1.000000) translate(-175.458995, -642.097214) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="160.458995" y="647.097214">R552</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#004590" transform="translate(125.165116, 695.184408) rotate(-1.000000) translate(-125.165116, -695.184408) " x="108.085116" y="687.302333" width="34.1599998" height="15.7641509"></rect>
+            <text id="R114" transform="translate(126.244041, 695.265704) rotate(-1.000000) translate(-126.244041, -695.265704) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="14.7132075" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="111.244041" y="700.265704">R114</tspan>
+            </text>
+            <rect id="Rectangle-299" fill="#FFFFFF" x="526.657343" y="114.101887" width="99" height="36"></rect>
+            <text id="WATERKLOOF" font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="16.8150943" font-style="condensed" font-weight="500" line-spacing="18" fill="#C81E16">
+                <tspan x="532.660331" y="129">WATERKLOOF</tspan>
+                <tspan x="526.657343" y="147">AIRFORCE BASE</tspan>
+            </text>
+            <rect id="Rectangle-299" fill="#FFFFFF" transform="translate(106.741240, 550.643065) rotate(-1.000000) translate(-106.741240, -550.643065) " x="75.7412403" y="532.395966" width="62" height="36.4941975"></rect>
+            <text id="LANSERIA" transform="translate(106.682792, 547.294589) rotate(-1.000000) translate(-106.682792, -547.294589) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="16.8150943" font-style="condensed" font-weight="500" line-spacing="16" fill="#004590">
+                <tspan x="75.6827925" y="548.294589">LANSERIA</tspan>
+                <tspan x="78.978551" y="564.294589">AIRPORT</tspan>
+            </text>
+            <rect id="Rectangle-301" fill="#C81E16" transform="translate(514.831361, 203.881870) rotate(-2.000000) translate(-514.831361, -203.881870) " x="502.728214" y="196.909265" width="24.2062937" height="13.9452104" rx="6"></rect>
+            <text id="M19" transform="translate(515.228928, 203.895398) rotate(-2.000000) translate(-515.228928, -203.895398) " font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-size="11.71" font-style="condensed" font-weight="500" fill="#FFFFFF">
+                <tspan x="504.728928" y="207.895398">M19</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

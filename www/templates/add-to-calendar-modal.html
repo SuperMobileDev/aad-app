@@ -1,0 +1,44 @@
+<ion-modal-view class="header-modal-wrap">
+	<ion-header-bar align-title="center" class="bg-blue modal-header">
+	  <div class="buttons">
+		<button class="button bg-blue color-white" ng-click="modal1Close()">Close</button>
+	  </div>
+	  <h2 class="title">Schedule Item</h2>
+	  <div class="buttons">
+		<button class="button bg-green color-white modal-btn-right" ng-click="submitItemToCalendar()">Add</button>
+	  </div>
+	</ion-header-bar>
+	<ion-content class="modal-content-wrap">
+		<div class="list">
+			<label class="item item-input">
+				<span class="input-label">Title</span>
+				<input placeholder="i.e. Parachute jump" type="text" ng-model="exhibitor['title']" ng-class="titleClass" ng-click="checkTitleInput()" ng-blur="checkTitle()">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Location</span>
+				<input placeholder="i.e. Main airfield" type="text" ng-model="exhibitor['location']">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Notes</span>
+				<input placeholder="i.e. Bring sunglasses" type="text" ng-model="exhibitor['notes']">
+			</label>
+			<ionic-datepicker input-obj="datepickerObject">
+				<label class="item item-input">
+					<button class="disable-userbehavior"></button>
+					<span class="input-label">Start Date</span>
+					<input class="error" ng-if="dateError" type="text" value="Please select a date" disabled>
+					<input ng-hide="dateError" type="text" placeholder="i.e. 14 Sep 2016" ng-model="dateSelected | date:datepickerObject.dateFormat" disabled>
+				</label>
+			</ionic-datepicker>
+			<ionic-timepicker input-obj="timePickerObject">
+				<label class="item item-input">
+					<button class="disable-userbehavior"></button>
+					<span class="input-label">Start Time</span>
+					<input class="error" ng-if="timeError" type="text" value="Please select a time" type="text" disabled>
+					<input ng-hide="timeError" type="text" placeholder="i.e. 8:00 AM" ng-model="startSelectedTime" disabled>
+				</label>
+			</ionic-timepicker>
+		</div>
+		<div class="bottom-spacer"></div>
+	</ion-content>
+</ion-modal-view>
